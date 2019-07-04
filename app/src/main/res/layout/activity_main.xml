@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:text="Login Menggunakan FireBase"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/IdUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/IdPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="password"
+        android:layout_marginBottom="30dp"
+
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+
+    <Button
+        android:id="@+id/IdLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/IdGoRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Register" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
